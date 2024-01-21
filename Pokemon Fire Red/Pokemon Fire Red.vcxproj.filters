@@ -1,0 +1,1607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{cfe19b0b-8149-4bcb-ac06-08cb33098e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine">
+      <UniqueIdentifier>{486561f7-c45a-4ebd-89a9-e548d860d2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\00. Header">
+      <UniqueIdentifier>{d0e06582-0da8-4870-ae11-7b9fadcc22bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr">
+      <UniqueIdentifier>{6f4f6fd7-7b1a-4319-a05c-a6a167ab2c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene">
+      <UniqueIdentifier>{0f0f8be0-eca8-432b-94a5-b08b72f34c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object">
+      <UniqueIdentifier>{5463fa84-4f86-4eb2-aea9-509bc39a0fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\04. Component">
+      <UniqueIdentifier>{31e5bd75-5d38-4092-a40f-762e7452a071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\05. Resource">
+      <UniqueIdentifier>{d8d5e34d-b9a0-4e06-93eb-abe4ff352f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\01. Player">
+      <UniqueIdentifier>{246bef23-6683-4680-b414-3a5cd89979a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment">
+      <UniqueIdentifier>{5df32324-5966-4967-9433-4a3fb9ca1333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\03. BackGround">
+      <UniqueIdentifier>{24359a7d-bed6-4123-9e28-ed4fc949ed03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\05. NPC">
+      <UniqueIdentifier>{a3821699-4f28-45ea-82fa-07eae5718c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\02. Intro Scene">
+      <UniqueIdentifier>{c2eab03e-b8c1-4d6c-80f2-f130a93e0176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\03. Pallet Town">
+      <UniqueIdentifier>{81aa0e95-2346-4396-abf9-46349b3ab2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\01. LOGO Scene">
+      <UniqueIdentifier>{4f5646e9-31d5-409c-b74d-f631b131cacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\04. Road 01">
+      <UniqueIdentifier>{d7dd5b5a-7cd2-47b2-83a8-6497179f399d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\05. Viridian City">
+      <UniqueIdentifier>{dfe23023-0b31-4f06-bed6-731bb3d9d2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\06. Pewter City">
+      <UniqueIdentifier>{c839ac27-8932-483b-82d6-279ce6d386c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\06. Item">
+      <UniqueIdentifier>{d75a0cb6-d9c7-4299-be5e-fef65767acc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\01. Flower">
+      <UniqueIdentifier>{d2146d43-2cee-4f76-86a1-df9e961d5234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\02. Wave">
+      <UniqueIdentifier>{b55861d5-38f7-4e3e-a583-cb9dda71c921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\03. Grass">
+      <UniqueIdentifier>{2cdaedb1-e944-40d9-ac7c-f61678c0ff10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\04. tree">
+      <UniqueIdentifier>{d1c7db57-075e-47c7-92eb-3a26c295072c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\01. TimeMgr">
+      <UniqueIdentifier>{d6777361-c10b-4a7e-9566-0048905c4e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\02. KeyMgr">
+      <UniqueIdentifier>{c35279e0-f78e-418c-85bc-5a12f2797df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\03. SceneMgr">
+      <UniqueIdentifier>{950e195e-88be-4b3d-bc5d-818bdc133480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\04. ResourceMgr">
+      <UniqueIdentifier>{db3948a7-7744-4ca2-a2e2-014006af5f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\05. CollisionMgr">
+      <UniqueIdentifier>{e20d966d-02b4-4f27-8a18-70d6a44385d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\06. CameraMgr">
+      <UniqueIdentifier>{40a03f52-51cd-4ed1-b6ee-bfbbda480eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\07. UIMgr">
+      <UniqueIdentifier>{7b4b096e-88ed-454f-a970-35646480aa6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\08. EventMgr">
+      <UniqueIdentifier>{b3e35f37-ca1d-49d6-ae6a-a96d52050a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\04. Component\01. Collider">
+      <UniqueIdentifier>{0f0f2a64-a679-4237-82e7-6734446ce9f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\00. Engine">
+      <UniqueIdentifier>{f9220a12-0dbc-48b1-aef2-048ba83e041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{eaaac7cd-58df-4b02-bbab-ba94cb31aaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\09. PathMgr">
+      <UniqueIdentifier>{095db9ff-83c2-440e-8f3a-614489999048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\05. Resource\CImage">
+      <UniqueIdentifier>{ddbe5a81-9db6-430a-9319-a14d998cb7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\05. Resource\CSound">
+      <UniqueIdentifier>{29c310f7-eef4-4b9f-8881-bdeddf72a524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\04. Component\02. Animator">
+      <UniqueIdentifier>{ef5852cd-3ebb-4353-9fc7-2fa96375aebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\04. Component\02. Animator\Animation">
+      <UniqueIdentifier>{6402e137-78a4-4e77-8747-02699e991896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\07. ToolScene">
+      <UniqueIdentifier>{4a277679-92ce-4d0f-92ce-957f4908def5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI">
+      <UniqueIdentifier>{89c7ebce-b8cd-4214-ad46-a13b86f77c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Map">
+      <UniqueIdentifier>{b2b85319-ebc9-4630-ba36-464ed0da10c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\04. tree\00. ATree">
+      <UniqueIdentifier>{8844d66b-fb67-46ff-8178-6d4e2ecf4df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\05. MailBox">
+      <UniqueIdentifier>{2abf8656-de58-47e2-9ef8-aa72f6be28fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\08. WoodSign">
+      <UniqueIdentifier>{7aa26400-d532-459a-bf66-5a661740a585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\07. WhiteSign">
+      <UniqueIdentifier>{efd4b6fa-b0f8-4a97-8b04-6c7f49d89fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\06. WhiteFence">
+      <UniqueIdentifier>{2dc9d917-f6d3-44e6-8140-3d73029af8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Map\01.Pallet">
+      <UniqueIdentifier>{86a3d91c-d033-44ba-abe5-28bf62320a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Map\02. Road1">
+      <UniqueIdentifier>{ddf7fc5d-015c-41c9-b682-bfec1b98c087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside">
+      <UniqueIdentifier>{d811cb65-026c-4cae-9c20-985b2e77bae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\01. Green House in">
+      <UniqueIdentifier>{bc610ac1-bbfe-46a3-9362-250112a7b9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\02. Red House in">
+      <UniqueIdentifier>{c69b9492-3ffc-4ec1-a0d7-a7feca6696d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\03. House1 in">
+      <UniqueIdentifier>{6bb76106-3390-4ae7-b731-a35f9fc7bc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\04. House2 in">
+      <UniqueIdentifier>{2e6e95c8-d246-4796-b0e4-768b52970914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\05. Oak%27s Lab in">
+      <UniqueIdentifier>{a736d4be-0dca-4922-8855-288e56adaa1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\06. Center in">
+      <UniqueIdentifier>{c76ddb4a-7f95-49f2-b782-2e9c7c4c07fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\07. Mart in">
+      <UniqueIdentifier>{779a10f5-a1d9-4bc5-a679-d4f1bd81c611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\04. tree\01. AATree">
+      <UniqueIdentifier>{12c2cd46-96cf-4d30-bcf9-43cd6a0f0c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Map\03. Viridian">
+      <UniqueIdentifier>{40447640-4bc6-4049-9dcd-7b56b13af550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Map\04. Pewter">
+      <UniqueIdentifier>{ef0c6316-1b79-43a1-a67e-9e23e9d32678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\09. SmallTree">
+      <UniqueIdentifier>{2326fcba-1d85-47f8-a11f-31d9c03ed8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\10. WoodFence">
+      <UniqueIdentifier>{589cd2cb-b01b-4464-81e4-edd05dd24b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building">
+      <UniqueIdentifier>{5fb0c18e-9190-4547-8f02-2430f51da6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof">
+      <UniqueIdentifier>{62ea774c-1ce2-4ae9-ba69-7719f8f944e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Red House 1f">
+      <UniqueIdentifier>{0f31d319-3b42-4333-8616-3ea92790376c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Red House 2f">
+      <UniqueIdentifier>{eea537f0-703f-4f15-8028-723e1740880e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Green House">
+      <UniqueIdentifier>{908ff003-de6b-4459-ac93-f58030bc40db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\02. House 1">
+      <UniqueIdentifier>{4f0af25e-bd03-4771-b71d-1112e02a17aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\02. House 1\House1 In">
+      <UniqueIdentifier>{c6ca17f3-9df0-46a0-b4cd-c9bff2a434e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\03. House 2">
+      <UniqueIdentifier>{5adff464-0e89-4cd7-b87e-2fc21d331948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\03. House 2\House2 In">
+      <UniqueIdentifier>{34eaa65c-2549-42fe-ba8e-0808135c2926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\04. Gym">
+      <UniqueIdentifier>{621d5e9a-2d32-4899-8c74-5b5264b69d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center">
+      <UniqueIdentifier>{ab6e465e-c45c-4f8c-b0d7-91a4e4b2b463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center\Center In 2f">
+      <UniqueIdentifier>{832e53fc-0a31-4201-88d9-d86499b273f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center\Center In 1f">
+      <UniqueIdentifier>{167c1d6a-6d72-4724-8b27-0a5a6391be02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\06. Mart">
+      <UniqueIdentifier>{74640121-cf19-43f7-b1bd-f50909f7a7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\06. Mart\Mart In">
+      <UniqueIdentifier>{f2e72b21-9044-44a3-8de6-9021e0190301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\07. Oak%27s Lab">
+      <UniqueIdentifier>{13e346e5-71e6-47ea-a8b3-152e4a8f6afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\07. Oak%27s Lab\Oak%27s Lab In">
+      <UniqueIdentifier>{46316455-05d1-4b0d-826b-0e48dbcfab2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\11. PalletWater">
+      <UniqueIdentifier>{a592ef5c-f53c-4f7e-8b99-494aa5eed22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\01. ToolUI">
+      <UniqueIdentifier>{bc00a050-7a3e-4c03-acae-b783fb1bd308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\01. ToolUI\01. Panel">
+      <UniqueIdentifier>{1d201950-8c5b-42fb-90ad-c175562b9d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\01. ToolUI\02. Button">
+      <UniqueIdentifier>{a87a4ef7-0da8-4a36-a5d6-f33455e1dfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI">
+      <UniqueIdentifier>{59ae9615-9385-4ef4-bed9-a3f2a510a470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\00. MenuUI">
+      <UniqueIdentifier>{ea8074fb-a442-4b34-a9d6-644c4d95f0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\01. MenuArrow">
+      <UniqueIdentifier>{7fa2a84a-d031-4af8-b162-402e33be6d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\09. UI Scene">
+      <UniqueIdentifier>{6aa82888-d0c6-4178-b8f6-a89cd3e19ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\09. UI Scene\01. Player PokeMon Info Scene">
+      <UniqueIdentifier>{adcc12de-e3ad-4ce6-9160-c94dfd742239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\09. UI Scene\02. BackPack Scene">
+      <UniqueIdentifier>{b6a88457-0a35-425f-b3c3-c6ad113150f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\08. Museum">
+      <UniqueIdentifier>{335c0fbd-14a3-4cf6-91a5-0c7495980260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\09. HouseBlackRoof">
+      <UniqueIdentifier>{2c56b07a-61b7-4320-9cc9-386f277382fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\12. RockTile">
+      <UniqueIdentifier>{0434ae08-06c4-4d32-95ca-fa2b7c86ac3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\10. PewterGym">
+      <UniqueIdentifier>{b7e0e398-3366-4c4e-a952-b60ca0cf1e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\13.GymSign">
+      <UniqueIdentifier>{bbf52464-a726-43e2-a5cb-1b221bb72db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide">
+      <UniqueIdentifier>{80b76b2b-2de9-43be-9083-cf1ef00453ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\01. Bed">
+      <UniqueIdentifier>{65a65b4f-7459-4cf8-ab90-24b038592f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\02. Table">
+      <UniqueIdentifier>{36fecc47-92d7-456a-a61c-a965f2c9eab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\03. OakBookshelf">
+      <UniqueIdentifier>{255191b7-319b-47ef-ad13-8cd43c69636e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\04. OakBookshelfHalf">
+      <UniqueIdentifier>{40713516-61c0-4f68-8fa6-c1f52537ea55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\05. OakBook">
+      <UniqueIdentifier>{e1f808cc-7d24-4b5e-8988-bda9e2eb511f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\06. OakMachine">
+      <UniqueIdentifier>{f44c706d-2247-4515-849d-7d159c258ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\07. Flowerpot">
+      <UniqueIdentifier>{f73ec4b0-2c2a-486b-b344-8afcc50c582d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\08. OakTable">
+      <UniqueIdentifier>{bb7efde7-9d56-4291-a8be-7460141cf290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\09. OakMonsterBall">
+      <UniqueIdentifier>{cc895e72-7665-4bbc-830e-c36950ba2dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\10. CenterSofa">
+      <UniqueIdentifier>{58c1941b-9667-48fd-9c92-69cfbfdc58a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\11. CenterTable">
+      <UniqueIdentifier>{8b460b05-3ed3-48cb-9f76-5fd118fa0440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\12. MartStand">
+      <UniqueIdentifier>{48cbe2f0-a2b6-4bc6-823d-907e4a692bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\13. MartTable">
+      <UniqueIdentifier>{a1d3d4bd-6e1a-4622-bb5e-7e9936c270d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand">
+      <UniqueIdentifier>{83f4f79a-cd6e-4563-b182-94127bd65867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\15. MuseumBox">
+      <UniqueIdentifier>{20eb5b96-f2bd-4294-9952-819f298a05d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\08. Museum\Museum In 1f">
+      <UniqueIdentifier>{60d0f06b-1845-4e9c-bcc3-ad3b5543bbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\08. Museum\Museum In 2f">
+      <UniqueIdentifier>{8d3bbc17-45cd-43f7-8828-b9cde193b737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\09. HouseBlackRoof\HouseBlackRoof In">
+      <UniqueIdentifier>{138fd58d-63f4-4b5d-935e-4de74eba7ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. Building\10. PewterGym\PewterGym In">
+      <UniqueIdentifier>{ba7fcc88-0569-4d3f-a958-30e8e276bd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\09. HouseBlackRoof in">
+      <UniqueIdentifier>{1e50fa56-03e7-4377-843c-a4fd9071c58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\10. Museum in">
+      <UniqueIdentifier>{ecc497d7-c68d-4ac6-ae4e-addf3284b25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\08. Inside\11. PewterGym in">
+      <UniqueIdentifier>{fddfef7d-ccde-4bb6-bffd-2495741fbbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\16. House2Table">
+      <UniqueIdentifier>{3e1caf11-15b8-46ed-b34a-6e31c82949df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\02. Environment\00. InSide\17. Escalator">
+      <UniqueIdentifier>{1f461e2f-9fe3-4446-9bc9-4bbdfe72d1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon">
+      <UniqueIdentifier>{fb381360-231f-4c8c-953d-47ba45099a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\01. Charmander">
+      <UniqueIdentifier>{c6892494-1155-4ff3-b4b0-274695a4f213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\02. Bulbasaur">
+      <UniqueIdentifier>{31466534-d844-4726-b99b-3eacbfbe555e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\03. Squirtle">
+      <UniqueIdentifier>{8e92c9e4-0445-4531-bdf8-4b59a7118156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\04. Caterpie">
+      <UniqueIdentifier>{f3b5ac46-eb38-48c6-bac4-be8dd3a278cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\05. Pidgey">
+      <UniqueIdentifier>{43716eb8-ff78-44a4-b845-e331700e3d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\06. Rattata">
+      <UniqueIdentifier>{de6f2e52-c141-480b-b25c-a68db0b10acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\07. Geodude">
+      <UniqueIdentifier>{a106cd52-cdb2-4951-9dc5-b1010e74db87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\04. Pokemon\08. Onix">
+      <UniqueIdentifier>{8f48dea6-b071-47cc-9dd3-60a438acb6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\02. Scene\10. BattleScene">
+      <UniqueIdentifier>{92bc1b92-b048-443c-8f63-e7b3893b72fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI">
+      <UniqueIdentifier>{5f705f81-cd11-4aba-940f-5260f5ccf702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\03. BackGround\00. GrassBattle">
+      <UniqueIdentifier>{c6edd3c1-7357-4ad4-86b6-a7a412b395c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\01. BattleMessage">
+      <UniqueIdentifier>{7e67d6d0-a14e-4a5c-a828-25930b767597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\02. BattleBox">
+      <UniqueIdentifier>{bfbb54df-9bfe-4f54-b7eb-86aee380ef1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\03. PlayerActionBox">
+      <UniqueIdentifier>{77472449-3915-4722-80f5-f355e8b6eca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\04. PlayerMonsterInfoBox">
+      <UniqueIdentifier>{efc30e3d-88d6-4fc8-9535-95ea6f019784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\05. MonsterInfoBox">
+      <UniqueIdentifier>{ceb4ef0c-d253-4c5a-afe9-d41f17468aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\06. BoxArrow">
+      <UniqueIdentifier>{3fe5756d-fc64-451a-9a9a-2f5d249f66cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill">
+      <UniqueIdentifier>{6e84f9bb-e787-42f0-abaa-44db14bcb1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\00. Scratch">
+      <UniqueIdentifier>{4584794d-d183-4c46-88f1-fdc59d0b2171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\10. BattleMgr">
+      <UniqueIdentifier>{33356f24-f68b-4e16-b881-054360ada36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\01. Ember">
+      <UniqueIdentifier>{b482a754-778b-4248-b0d2-d65511503d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI">
+      <UniqueIdentifier>{14983b0e-834f-4c5f-a5a5-c77fd9f4af16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\01. CurPokemonBox">
+      <UniqueIdentifier>{60dbf7b5-407e-4712-b8cc-40e967b002ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\02. PokemonBox">
+      <UniqueIdentifier>{139ece31-087f-4ee9-a31b-58031fb6b3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\03. TextBox">
+      <UniqueIdentifier>{17bff26a-3a60-49b4-bd43-385e1d1a64e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\04. CancelBox">
+      <UniqueIdentifier>{9ee26f8e-107a-4a4a-9c9e-c5cb5b1934a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\05. MenuBox">
+      <UniqueIdentifier>{42bf2d6d-d8c0-4371-af43-6b1124989252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\02. Tackle">
+      <UniqueIdentifier>{045025e4-2d05-4a1d-9c56-66ffed84bf9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\03. WaterGun">
+      <UniqueIdentifier>{981dfc9c-650e-44a4-814f-9b81900f4919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\04. Bubble">
+      <UniqueIdentifier>{edb6a7ef-9afb-45ba-a8ff-2f5e2f4ba3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\05. VineWhip">
+      <UniqueIdentifier>{8ea4b9d3-3df7-4263-afe9-edea2e97df89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\06. Gust">
+      <UniqueIdentifier>{e2eca1d3-a2aa-4d9c-acd1-e2ec21eb410d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\05. NPC\00. Oak">
+      <UniqueIdentifier>{6150e876-f182-45f1-925e-7519001aec0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\05. NPC\01. Woong">
+      <UniqueIdentifier>{2a9105f7-7fa6-41ee-95c1-eda9a240d217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\08. Skill\07. RockTomb">
+      <UniqueIdentifier>{8d266a35-ffa3-429d-9114-d6479015649a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\04. Oak Lab UI">
+      <UniqueIdentifier>{20a2cb26-87d4-493f-a766-acfaa7441878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\01. Mgr\11. SoundMgr">
+      <UniqueIdentifier>{52695b5c-7381-4821-ab72-da82058565e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\06. Item\01. Potion">
+      <UniqueIdentifier>{6e2eaf34-0d55-4783-b2b9-d27c61daab51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\06. Item\02. Weird candy">
+      <UniqueIdentifier>{c6943c88-e6a5-493d-ad84-c33dd6a81ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\06. Item\03. Revive">
+      <UniqueIdentifier>{3f047a55-a0b9-4db9-93d7-b1d8599046f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\07. UI\05. BackPackUI">
+      <UniqueIdentifier>{07af63fd-c06b-4310-9b49-f06c74264578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Engine\03. Object\06. Item\00. BackPackUIOBJ">
+      <UniqueIdentifier>{0521ac2d-8871-40eb-8303-2349082a38b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon Fire Red.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Game\Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Game\Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\Engine\00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\Engine\01. Mgr\01. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\Engine\01. Mgr\02. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Game\Engine\01. Mgr\03. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Game\Engine\03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGround.h">
+      <Filter>Game\Engine\03. Object\03. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnvironment.h">
+      <Filter>Game\Engine\03. Object\02. Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\Engine\03. Object\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game\Engine\02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CLOGO_Scene.h">
+      <Filter>Game\Engine\02. Scene\01. LOGO Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPallet_CITY.h">
+      <Filter>Game\Engine\02. Scene\03. Pallet Town</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\Engine\04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\Engine\01. Mgr\09. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceMgr.h">
+      <Filter>Game\Engine\01. Mgr\04. ResourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Game\Engine\05. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>Game\Engine\05. Resource\CImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\Engine\04. Component\02. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Game\Engine\04. Component\02. Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMgr.h">
+      <Filter>Game\Engine\01. Mgr\06. CameraMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\Engine\01. Mgr\05. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\Engine\04. Component\01. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouseRedRoof.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlower.h">
+      <Filter>Game\Engine\03. Object\02. Environment\01. Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Game\Engine\01. Mgr\08. EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolScene.h">
+      <Filter>Game\Engine\02. Scene\07. ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\Engine\03. Object\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\Engine\01. Mgr\07. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Game\Engine\03. Object\07. UI\01. ToolUI\01. Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonUI.h">
+      <Filter>Game\Engine\03. Object\07. UI\01. ToolUI\02. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="COaksLab.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\07. Oak%27s Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\02. House 1</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse2.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\03. House 2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGym.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\04. Gym</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenter.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center</Filter>
+    </ClInclude>
+    <ClInclude Include="CMart.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\06. Mart</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoad01.h">
+      <Filter>Game\Engine\02. Scene\04. Road 01</Filter>
+    </ClInclude>
+    <ClInclude Include="CViridian_CITY.h">
+      <Filter>Game\Engine\02. Scene\05. Viridian City</Filter>
+    </ClInclude>
+    <ClInclude Include="CPewter_CITY.h">
+      <Filter>Game\Engine\02. Scene\06. Pewter City</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrass.h">
+      <Filter>Game\Engine\03. Object\02. Environment\03. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="CATree.h">
+      <Filter>Game\Engine\03. Object\02. Environment\04. tree\00. ATree</Filter>
+    </ClInclude>
+    <ClInclude Include="CMailBox.h">
+      <Filter>Game\Engine\03. Object\02. Environment\05. MailBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteFence.h">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteSign.h">
+      <Filter>Game\Engine\03. Object\02. Environment\07. WhiteSign</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodSign.h">
+      <Filter>Game\Engine\03. Object\02. Environment\08. WoodSign</Filter>
+    </ClInclude>
+    <ClInclude Include="CPallet.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\01.Pallet</Filter>
+    </ClInclude>
+    <ClInclude Include="CORoad1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\02. Road1</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedHouse1f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Red House 1f</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedHouse2f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Red House 2f</Filter>
+    </ClInclude>
+    <ClInclude Include="CGreenHouse.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Green House</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse1In.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\02. House 1\House1 In</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse2In.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\03. House 2\House2 In</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenterIn1f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center\Center In 1f</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenterIn2f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center\Center In 2f</Filter>
+    </ClInclude>
+    <ClInclude Include="CMartIn.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\06. Mart\Mart In</Filter>
+    </ClInclude>
+    <ClInclude Include="COaksLabIn.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\07. Oak%27s Lab\Oak%27s Lab In</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave7.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave6.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave5.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave4.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave3.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CWave2.h">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CAATree.h">
+      <Filter>Game\Engine\03. Object\02. Environment\04. tree\01. AATree</Filter>
+    </ClInclude>
+    <ClInclude Include="CViridian.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\03. Viridian</Filter>
+    </ClInclude>
+    <ClInclude Include="CPewter.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\04. Pewter</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmallTree.h">
+      <Filter>Game\Engine\03. Object\02. Environment\09. SmallTree</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteFence1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteFenceLeftBot.h">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteFenceLeftTop.h">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteFenceRightBot.h">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhiteFenceRightTop.h">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFence.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFence1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFenceLeftBot.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFenceLeftTop.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFenceRightBot.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFenceRightTop.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CPalletWater.h">
+      <Filter>Game\Engine\03. Object\02. Environment\11. PalletWater</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuUI.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\00. MenuUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuArrow.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\01. MenuArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPokeInfoScene.h">
+      <Filter>Game\Engine\02. Scene\09. UI Scene\01. Player PokeMon Info Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackpackScene.h">
+      <Filter>Game\Engine\02. Scene\09. UI Scene\02. BackPack Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseum.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\08. Museum</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouseBlackRoof.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\09. HouseBlackRoof</Filter>
+    </ClInclude>
+    <ClInclude Include="CRockTile.h">
+      <Filter>Game\Engine\03. Object\02. Environment\12. RockTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CRockTileConer.h">
+      <Filter>Game\Engine\03. Object\02. Environment\12. RockTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CPewterGym.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\10. PewterGym</Filter>
+    </ClInclude>
+    <ClInclude Include="CGymSign.h">
+      <Filter>Game\Engine\03. Object\02. Environment\13.GymSign</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedHouseScene1F.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\02. Red House in</Filter>
+    </ClInclude>
+    <ClInclude Include="COakLabScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\05. Oak%27s Lab in</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedHouseScene2F.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\02. Red House in</Filter>
+    </ClInclude>
+    <ClInclude Include="CGreenHouseScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\01. Green House in</Filter>
+    </ClInclude>
+    <ClInclude Include="CBed.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\01. Bed</Filter>
+    </ClInclude>
+    <ClInclude Include="CTable.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\02. Table</Filter>
+    </ClInclude>
+    <ClInclude Include="COakBookShelf.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\03. OakBookshelf</Filter>
+    </ClInclude>
+    <ClInclude Include="COakBookshelfHalf.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\04. OakBookshelfHalf</Filter>
+    </ClInclude>
+    <ClInclude Include="COakBook.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\05. OakBook</Filter>
+    </ClInclude>
+    <ClInclude Include="COakMachine.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\06. OakMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlowerpot.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\07. Flowerpot</Filter>
+    </ClInclude>
+    <ClInclude Include="COakTable.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\08. OakTable</Filter>
+    </ClInclude>
+    <ClInclude Include="COakMonsterBall.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\09. OakMonsterBall</Filter>
+    </ClInclude>
+    <ClInclude Include="COakBookshelfHalf1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\04. OakBookshelfHalf</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenterSofa.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\10. CenterSofa</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenterTable.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\11. CenterTable</Filter>
+    </ClInclude>
+    <ClInclude Include="CMartStand.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\12. MartStand</Filter>
+    </ClInclude>
+    <ClInclude Include="CMartStand1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\12. MartStand</Filter>
+    </ClInclude>
+    <ClInclude Include="CMartTable.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\13. MartTable</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseumBox.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\15. MuseumBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseumStand.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseumStand1.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseumStand2.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenter1fScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\06. Center in</Filter>
+    </ClInclude>
+    <ClInclude Include="CCenter2fScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\06. Center in</Filter>
+    </ClInclude>
+    <ClInclude Include="CMartScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\07. Mart in</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouseBlackScene1.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\09. HouseBlackRoof in</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouseBlackScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\09. HouseBlackRoof in</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseum1fScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\10. Museum in</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseum2fScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\10. Museum in</Filter>
+    </ClInclude>
+    <ClInclude Include="CPewterGymScene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\11. PewterGym in</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseumIn1f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\08. Museum\Museum In 1f</Filter>
+    </ClInclude>
+    <ClInclude Include="CMuseumIn2f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\08. Museum\Museum In 2f</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouseBlackRoofIn.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\09. HouseBlackRoof\HouseBlackRoof In</Filter>
+    </ClInclude>
+    <ClInclude Include="CPewterGymIn.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\10. PewterGym\PewterGym In</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse1Scene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\03. House1 in</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse2Scene.h">
+      <Filter>Game\Engine\02. Scene\08. Inside\04. House2 in</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouseRedRoofGreen.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Green House</Filter>
+    </ClInclude>
+    <ClInclude Include="CEscalator1f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\17. Escalator</Filter>
+    </ClInclude>
+    <ClInclude Include="CEscalator2f.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\17. Escalator</Filter>
+    </ClInclude>
+    <ClInclude Include="CHouse2Table.h">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\16. House2Table</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodFence2.h">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemon.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharmander.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\01. Charmander</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleScene.h">
+      <Filter>Game\Engine\02. Scene\10. BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrassBattle.h">
+      <Filter>Game\Engine\03. Object\03. BackGround\00. GrassBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleMessageBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\01. BattleMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMonsterInfoBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\04. PlayerMonsterInfoBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterInfoBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\05. MonsterInfoBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerActionBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\03. PlayerActionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoxArrow.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\06. BoxArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\02. BattleBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkill.h">
+      <Filter>Game\Engine\03. Object\08. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CScratch.h">
+      <Filter>Game\Engine\03. Object\08. Skill\00. Scratch</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleMgr.h">
+      <Filter>Game\Engine\01. Mgr\10. BattleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmber.h">
+      <Filter>Game\Engine\03. Object\08. Skill\01. Ember</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonSelectBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CCurPokemonBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\01. CurPokemonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CPokemonBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\02. PokemonBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CCancelBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\04. CancelBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuBox.h">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\05. MenuBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulbasaur.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\02. Bulbasaur</Filter>
+    </ClInclude>
+    <ClInclude Include="CSquirtle.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\03. Squirtle</Filter>
+    </ClInclude>
+    <ClInclude Include="CTackle.h">
+      <Filter>Game\Engine\03. Object\08. Skill\02. Tackle</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaterGun.h">
+      <Filter>Game\Engine\03. Object\08. Skill\03. WaterGun</Filter>
+    </ClInclude>
+    <ClInclude Include="CBubble.h">
+      <Filter>Game\Engine\03. Object\08. Skill\04. Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="CVinewhip.h">
+      <Filter>Game\Engine\03. Object\08. Skill\05. VineWhip</Filter>
+    </ClInclude>
+    <ClInclude Include="CCaterpie.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\04. Caterpie</Filter>
+    </ClInclude>
+    <ClInclude Include="CPidgey.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\05. Pidgey</Filter>
+    </ClInclude>
+    <ClInclude Include="CRattata.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\06. Rattata</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeodude.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\07. Geodude</Filter>
+    </ClInclude>
+    <ClInclude Include="COnix.h">
+      <Filter>Game\Engine\03. Object\04. Pokemon\08. Onix</Filter>
+    </ClInclude>
+    <ClInclude Include="CGust.h">
+      <Filter>Game\Engine\03. Object\08. Skill\06. Gust</Filter>
+    </ClInclude>
+    <ClInclude Include="CRockTomb.h">
+      <Filter>Game\Engine\03. Object\08. Skill\07. RockTomb</Filter>
+    </ClInclude>
+    <ClInclude Include="COak.h">
+      <Filter>Game\Engine\03. Object\05. NPC\00. Oak</Filter>
+    </ClInclude>
+    <ClInclude Include="COakLabUI.h">
+      <Filter>Game\Engine\03. Object\07. UI\04. Oak Lab UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoong.h">
+      <Filter>Game\Engine\03. Object\05. NPC\01. Woong</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\Engine\05. Resource\CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\Engine\01. Mgr\11. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPotion.h">
+      <Filter>Game\Engine\03. Object\06. Item\01. Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Game\Engine\03. Object\06. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeirdCandy.h">
+      <Filter>Game\Engine\03. Object\06. Item\02. Weird candy</Filter>
+    </ClInclude>
+    <ClInclude Include="CRevive.h">
+      <Filter>Game\Engine\03. Object\06. Item\03. Revive</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackPackUI.h">
+      <Filter>Game\Engine\03. Object\07. UI\05. BackPackUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackPackObj.h">
+      <Filter>Game\Engine\03. Object\06. Item\00. BackPackUIOBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackPackLeftArrow.h">
+      <Filter>Game\Engine\03. Object\06. Item\00. BackPackUIOBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackPackRightArrow.h">
+      <Filter>Game\Engine\03. Object\06. Item\00. BackPackUIOBJ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pokemon Fire Red.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Pokemon Fire Red.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pokemon Fire Red.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\Engine\00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\01. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\02. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\03. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Game\Engine\03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGround.cpp">
+      <Filter>Game\Engine\03. Object\03. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnvironment.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\Engine\03. Object\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game\Engine\02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CLOGO_Scene.cpp">
+      <Filter>Game\Engine\02. Scene\01. LOGO Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPallet_CITY.cpp">
+      <Filter>Game\Engine\02. Scene\03. Pallet Town</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\Engine\04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\09. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\04. ResourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\Engine\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Game\Engine\05. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CImage.cpp">
+      <Filter>Game\Engine\05. Resource\CImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\Engine\04. Component\02. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Game\Engine\04. Component\02. Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\06. CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Game\Engine\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\05. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\Engine\04. Component\01. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouseRedRoof.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlower.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\01. Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\08. EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolScene.cpp">
+      <Filter>Game\Engine\02. Scene\07. ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\Engine\03. Object\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\07. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\01. ToolUI\01. Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonUI.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\01. ToolUI\02. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="COaksLab.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\07. Oak%27s Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\02. House 1</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse2.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\03. House 2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGym.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\04. Gym</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenter.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center</Filter>
+    </ClCompile>
+    <ClCompile Include="CMart.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\06. Mart</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoad01.cpp">
+      <Filter>Game\Engine\02. Scene\04. Road 01</Filter>
+    </ClCompile>
+    <ClCompile Include="CViridian_CITY.cpp">
+      <Filter>Game\Engine\02. Scene\05. Viridian City</Filter>
+    </ClCompile>
+    <ClCompile Include="CPewter_CITY.cpp">
+      <Filter>Game\Engine\02. Scene\06. Pewter City</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrass.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\03. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="CATree.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\04. tree\00. ATree</Filter>
+    </ClCompile>
+    <ClCompile Include="CMailBox.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\05. MailBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteFence.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteSign.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\07. WhiteSign</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodSign.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\08. WoodSign</Filter>
+    </ClCompile>
+    <ClCompile Include="CPallet.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\01.Pallet</Filter>
+    </ClCompile>
+    <ClCompile Include="CORoad1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\02. Road1</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedHouse1f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Red House 1f</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedHouse2f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Red House 2f</Filter>
+    </ClCompile>
+    <ClCompile Include="CGreenHouse.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Green House</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse1In.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\02. House 1\House1 In</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse2In.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\03. House 2\House2 In</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenterIn1f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center\Center In 1f</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenterIn2f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\05. Pokemon Center\Center In 2f</Filter>
+    </ClCompile>
+    <ClCompile Include="CMartIn.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\06. Mart\Mart In</Filter>
+    </ClCompile>
+    <ClCompile Include="COaksLabIn.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\07. Oak%27s Lab\Oak%27s Lab In</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave7.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave6.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave5.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave4.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave3.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CWave2.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\02. Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CAATree.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\04. tree\01. AATree</Filter>
+    </ClCompile>
+    <ClCompile Include="CViridian.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\03. Viridian</Filter>
+    </ClCompile>
+    <ClCompile Include="CPewter.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Map\04. Pewter</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmallTree.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\09. SmallTree</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteFence1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteFenceLeftBot.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteFenceLeftTop.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteFenceRightBot.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhiteFenceRightTop.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\06. WhiteFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFence.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFence1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFenceLeftBot.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFenceLeftTop.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFenceRightBot.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFenceRightTop.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CPalletWater.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\11. PalletWater</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuUI.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\00. MenuUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuArrow.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\01. MenuArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPokeInfoScene.cpp">
+      <Filter>Game\Engine\02. Scene\09. UI Scene\01. Player PokeMon Info Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackpackScene.cpp">
+      <Filter>Game\Engine\02. Scene\09. UI Scene\02. BackPack Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseum.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\08. Museum</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouseBlackRoof.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\09. HouseBlackRoof</Filter>
+    </ClCompile>
+    <ClCompile Include="CRockTile.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\12. RockTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CRockTileConer.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\12. RockTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CPewterGym.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\10. PewterGym</Filter>
+    </ClCompile>
+    <ClCompile Include="CGymSign.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\13.GymSign</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedHouseScene1F.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\02. Red House in</Filter>
+    </ClCompile>
+    <ClCompile Include="COakLabScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\05. Oak%27s Lab in</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedHouseScene2F.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\02. Red House in</Filter>
+    </ClCompile>
+    <ClCompile Include="CGreenHouseScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\01. Green House in</Filter>
+    </ClCompile>
+    <ClCompile Include="CBed.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\01. Bed</Filter>
+    </ClCompile>
+    <ClCompile Include="CTable.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\02. Table</Filter>
+    </ClCompile>
+    <ClCompile Include="COakBookShelf.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\03. OakBookshelf</Filter>
+    </ClCompile>
+    <ClCompile Include="COakBookshelfHalf.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\04. OakBookshelfHalf</Filter>
+    </ClCompile>
+    <ClCompile Include="COakBook.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\05. OakBook</Filter>
+    </ClCompile>
+    <ClCompile Include="COakMachine.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\06. OakMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlowerpot.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\07. Flowerpot</Filter>
+    </ClCompile>
+    <ClCompile Include="COakTable.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\08. OakTable</Filter>
+    </ClCompile>
+    <ClCompile Include="COakMonsterBall.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\09. OakMonsterBall</Filter>
+    </ClCompile>
+    <ClCompile Include="COakBookshelfHalf1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\04. OakBookshelfHalf</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenterSofa.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\10. CenterSofa</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenterTable.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\11. CenterTable</Filter>
+    </ClCompile>
+    <ClCompile Include="CMartStand.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\12. MartStand</Filter>
+    </ClCompile>
+    <ClCompile Include="CMartStand1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\12. MartStand</Filter>
+    </ClCompile>
+    <ClCompile Include="CMartTable.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\13. MartTable</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseumBox.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\15. MuseumBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseumStand.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseumStand1.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseumStand2.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\14. MuseumStand</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenter1fScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\06. Center in</Filter>
+    </ClCompile>
+    <ClCompile Include="CCenter2fScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\06. Center in</Filter>
+    </ClCompile>
+    <ClCompile Include="CMartScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\07. Mart in</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouseBlackScene1.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\09. HouseBlackRoof in</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouseBlackScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\09. HouseBlackRoof in</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseum1fScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\10. Museum in</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseum2fScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\10. Museum in</Filter>
+    </ClCompile>
+    <ClCompile Include="CPewterGymScene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\11. PewterGym in</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseumIn1f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\08. Museum\Museum In 1f</Filter>
+    </ClCompile>
+    <ClCompile Include="CMuseumIn2f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\08. Museum\Museum In 2f</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouseBlackRoofIn.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\09. HouseBlackRoof\HouseBlackRoof In</Filter>
+    </ClCompile>
+    <ClCompile Include="CPewterGymIn.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\10. PewterGym\PewterGym In</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse1Scene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\03. House1 in</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse2Scene.cpp">
+      <Filter>Game\Engine\02. Scene\08. Inside\04. House2 in</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouseRedRoofGreen.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. Building\01. House Red Roof\Green House</Filter>
+    </ClCompile>
+    <ClCompile Include="CEscalator1f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\17. Escalator</Filter>
+    </ClCompile>
+    <ClCompile Include="CEscalator2f.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\17. Escalator</Filter>
+    </ClCompile>
+    <ClCompile Include="CHouse2Table.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\00. InSide\16. House2Table</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodFence2.cpp">
+      <Filter>Game\Engine\03. Object\02. Environment\10. WoodFence</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemon.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharmander.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\01. Charmander</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleScene.cpp">
+      <Filter>Game\Engine\02. Scene\10. BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrassBattle.cpp">
+      <Filter>Game\Engine\03. Object\03. BackGround\00. GrassBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleMessageBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\01. BattleMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMonsterInfoBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\04. PlayerMonsterInfoBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterInfoBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\05. MonsterInfoBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerActionBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\03. PlayerActionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoxArrow.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\06. BoxArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\02. BattleUI\02. BattleBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkill.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CScratch.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\00. Scratch</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\10. BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEmber.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\01. Ember</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonSelectBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CCurPokemonBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\01. CurPokemonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CPokemonBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\02. PokemonBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CCancelBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\04. CancelBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuBox.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\02. Game UI\03. PokemonSelectUI\05. MenuBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulbasaur.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\02. Bulbasaur</Filter>
+    </ClCompile>
+    <ClCompile Include="CSquirtle.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\03. Squirtle</Filter>
+    </ClCompile>
+    <ClCompile Include="CTackle.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\02. Tackle</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaterGun.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\03. WaterGun</Filter>
+    </ClCompile>
+    <ClCompile Include="CBubble.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\04. Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="CVinewhip.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\05. VineWhip</Filter>
+    </ClCompile>
+    <ClCompile Include="CCaterpie.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\04. Caterpie</Filter>
+    </ClCompile>
+    <ClCompile Include="CPidgey.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\05. Pidgey</Filter>
+    </ClCompile>
+    <ClCompile Include="CRattata.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\06. Rattata</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeodude.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\07. Geodude</Filter>
+    </ClCompile>
+    <ClCompile Include="COnix.cpp">
+      <Filter>Game\Engine\03. Object\04. Pokemon\08. Onix</Filter>
+    </ClCompile>
+    <ClCompile Include="CGust.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\06. Gust</Filter>
+    </ClCompile>
+    <ClCompile Include="CRockTomb.cpp">
+      <Filter>Game\Engine\03. Object\08. Skill\07. RockTomb</Filter>
+    </ClCompile>
+    <ClCompile Include="COak.cpp">
+      <Filter>Game\Engine\03. Object\05. NPC\00. Oak</Filter>
+    </ClCompile>
+    <ClCompile Include="COakLabUI.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\04. Oak Lab UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoong.cpp">
+      <Filter>Game\Engine\03. Object\05. NPC\01. Woong</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\Engine\05. Resource\CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\Engine\01. Mgr\11. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPotion.cpp">
+      <Filter>Game\Engine\03. Object\06. Item\01. Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Game\Engine\03. Object\06. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeirdCandy.cpp">
+      <Filter>Game\Engine\03. Object\06. Item\02. Weird candy</Filter>
+    </ClCompile>
+    <ClCompile Include="CRevive.cpp">
+      <Filter>Game\Engine\03. Object\06. Item\03. Revive</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackPackUI.cpp">
+      <Filter>Game\Engine\03. Object\07. UI\05. BackPackUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackPackObj.cpp">
+      <Filter>Game\Engine\03. Object\06. Item\00. BackPackUIOBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackPackLeftArrow.cpp">
+      <Filter>Game\Engine\03. Object\06. Item\00. BackPackUIOBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackPackRightArrow.cpp">
+      <Filter>Game\Engine\03. Object\06. Item\00. BackPackUIOBJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

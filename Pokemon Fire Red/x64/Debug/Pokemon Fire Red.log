@@ -1,0 +1,415 @@
+﻿  unity_NNVX7OQVHEZGJDY4.cpp
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEnvironment.h(30,34): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayer.h(31,47): warning C4267: 'return': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackGround.cpp(23,37): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackGround.cpp(24,38): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSceneMgr.h(24,23): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(72,45): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(102,47): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(229,34): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(232,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(231,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(242,3): warning C4267: '초기화 중': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(251,37): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(254,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(253,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(288,42): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(291,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(290,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMgr.h(25,23): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSkill.h(24,50): warning C4244: 'return': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(268,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(267,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(282,46): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(285,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(284,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(299,46): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(302,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(301,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(316,46): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(319,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(318,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(333,46): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(336,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(335,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(503,35): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(506,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(505,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(517,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(516,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(528,35): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(531,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(530,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(546,37): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(549,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(548,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(57,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(56,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(68,11): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(84,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(95,42): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(106,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(106,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(104,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(103,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMgr.cpp(78,38): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMgr.cpp(170,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleScene.cpp(411,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleScene.cpp(423,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBoxArrow.cpp(39,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBoxArrow.cpp(38,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(110,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(111,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(124,21): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(162,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(162,11): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(161,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(160,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(175,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(176,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(189,21): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(227,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(227,12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(226,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBubble.cpp(225,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBulbasaur.cpp(52,126): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBulbasaur.cpp(117,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBulbasaur.cpp(117,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBulbasaur.cpp(116,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBulbasaur.cpp(115,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBulbasaur.cpp(122,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CButtonUI.cpp(54,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CButtonUI.cpp(53,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCancelBox.cpp(42,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCancelBox.cpp(41,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCancelBox.cpp(50,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCancelBox.cpp(49,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCaterpie.cpp(49,123): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCaterpie.cpp(112,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCaterpie.cpp(112,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCaterpie.cpp(111,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCaterpie.cpp(110,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCaterpie.cpp(117,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter1fScene.cpp(41,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter1fScene.cpp(61,17): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter1fScene.cpp(66,17): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter1fScene.cpp(69,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter1fScene.cpp(70,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter2fScene.cpp(35,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter2fScene.cpp(46,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter2fScene.cpp(48,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenter2fScene.cpp(49,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenterIn1f.cpp(29,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenterIn1f.cpp(30,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenterIn2f.cpp(28,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCenterIn2f.cpp(29,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCharmander.cpp(55,127): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCharmander.cpp(120,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCharmander.cpp(120,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCharmander.cpp(119,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCharmander.cpp(118,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCharmander.cpp(125,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(56,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(55,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(64,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(63,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(78,33): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(81,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(80,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(101,34): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(104,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(103,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(144,35): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(156,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(155,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(186,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(185,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(184,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(183,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(109,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(110,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(115,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(115,12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(114,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(113,65): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(134,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(139,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(139,12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(138,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CEmber.cpp(137,65): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGeodude.cpp(49,125): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGeodude.cpp(112,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGeodude.cpp(112,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGeodude.cpp(111,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGeodude.cpp(110,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGeodude.cpp(117,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGrassBattle.cpp(35,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGrassBattle.cpp(34,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGreenHouse.cpp(29,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGreenHouse.cpp(30,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGreenHouseScene.cpp(34,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGreenHouseScene.cpp(45,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGreenHouseScene.cpp(47,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(77,21): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(84,21): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(91,21): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(98,21): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(106,21): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(113,21): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(120,21): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CGust.cpp(127,21): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse1In.cpp(29,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse1In.cpp(30,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse1Scene.cpp(35,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse1Scene.cpp(47,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse1Scene.cpp(50,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse2In.cpp(29,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse2In.cpp(30,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse2Scene.cpp(35,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse2Scene.cpp(46,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouse2Scene.cpp(48,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouseBlackRoofIn.cpp(27,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouseBlackRoofIn.cpp(28,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouseBlackScene1.cpp(39,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMartIn.cpp(29,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMartIn.cpp(30,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMartScene.cpp(35,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMartScene.cpp(37,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuArrow.cpp(39,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuArrow.cpp(38,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(97,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(96,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(108,37): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(111,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(110,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(124,38): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(127,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(126,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(45,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(44,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(58,37): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(61,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(60,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(87,38): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(90,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(89,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(120,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(119,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(118,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(117,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMuseum1fScene.cpp(39,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMuseum2fScene.cpp(39,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMuseumIn1f.cpp(27,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMuseumIn1f.cpp(28,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMuseumIn2f.cpp(27,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMuseumIn2f.cpp(28,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabScene.cpp(49,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabScene.cpp(69,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabScene.cpp(71,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabScene.cpp(72,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabScene.cpp(73,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(105,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(104,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(116,42): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(119,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(118,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(132,41): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(135,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(134,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(148,40): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(151,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(150,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COaksLabIn.cpp(28,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COaksLabIn.cpp(29,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COnix.cpp(52,125): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COnix.cpp(115,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COnix.cpp(115,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COnix.cpp(114,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COnix.cpp(113,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COnix.cpp(120,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPallet.cpp(35,37): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPallet.cpp(36,38): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPallet_CITY.cpp(62,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPallet_CITY.cpp(74,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPallet_CITY.cpp(80,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPewter.cpp(35,37): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPewter.cpp(36,38): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPewterGymIn.cpp(27,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPewterGymIn.cpp(28,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPidgey.cpp(54,121): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPidgey.cpp(117,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPidgey.cpp(117,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPidgey.cpp(116,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPidgey.cpp(115,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPidgey.cpp(122,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerActionBox.cpp(185,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerActionBox.cpp(184,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(70,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(69,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(83,37): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(86,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(85,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(112,38): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(115,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(114,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(152,35): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(158,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(157,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(166,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(165,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(197,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(196,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(195,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(194,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(209,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(208,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(207,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(206,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(94,36): warning C4244: '=': 'double'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(255,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(261,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(267,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(283,11): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(286,14): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(291,26): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(293,26): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(298,13): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(300,13): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(319,15): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(343,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(70,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(69,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(78,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(77,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(92,33): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(95,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(94,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(115,34): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(118,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(117,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(158,35): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(170,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(169,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(200,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(199,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(198,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(197,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(43,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(57,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(85,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(247,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(246,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(273,35): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(276,12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(275,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRattata.cpp(49,123): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRattata.cpp(112,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRattata.cpp(112,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRattata.cpp(111,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRattata.cpp(110,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRattata.cpp(117,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouse1f.cpp(29,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouse1f.cpp(30,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouse2f.cpp(28,33): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouse2f.cpp(29,34): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene1F.cpp(38,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene1F.cpp(51,17): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene1F.cpp(56,17): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene1F.cpp(59,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene2F.cpp(39,67): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene2F.cpp(52,17): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene2F.cpp(62,17): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRedHouseScene2F.cpp(65,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(38,31): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(39,24): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(40,23): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(41,29): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(42,30): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(43,35): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(64,37): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(65,26): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(66,28): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(67,21): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CResourceMgr.cpp(216,18): warning C4129: 'N': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CORoad1.cpp(35,37): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CORoad1.cpp(36,38): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(107,27): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(110,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(109,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(125,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(124,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(144,27): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(147,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(146,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(162,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(161,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(187,26): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(190,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(189,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(204,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(203,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(214,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CRockTomb.cpp(213,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSquirtle.cpp(59,125): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSquirtle.cpp(124,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSquirtle.cpp(124,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSquirtle.cpp(123,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSquirtle.cpp(122,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CSquirtle.cpp(129,55): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CTackle.cpp(73,22): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CTackle.cpp(80,22): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CTackle.cpp(96,22): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CTackle.cpp(103,22): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1712,63): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1713,62): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1718,64): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1719,65): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1727,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1728,58): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1733,60): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1734,61): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1892,98): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1892,57): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1894,61): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1895,62): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1959,98): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1959,57): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1961,61): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(1962,62): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CViridian.cpp(35,37): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CViridian.cpp(36,38): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CViridian_CITY.cpp(72,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CViridian_CITY.cpp(78,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CViridian_CITY.cpp(84,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CViridian_CITY.cpp(96,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(114,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(115,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(120,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(120,11): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(119,51): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(118,64): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(145,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(150,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(150,11): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(149,51): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CWaterGun.cpp(148,64): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CHouseBlackScene.cpp(39,16): warning C4129: 'B': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBackPackUI.cpp(635): warning C4715: 'CBackPackUI::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleBox.cpp(922): warning C4715: 'CBattleBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMgr.cpp(69): warning C4715: 'CBattleMgr::CompareType': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMessageBox.cpp(428): warning C4715: 'CBattleMessageBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CBattleMgr.cpp(105): warning C4715: 'CBattleMgr::IS_Player_First': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CCurPokemonBox.cpp(392): warning C4715: 'CCurPokemonBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMenuBox.cpp(478): warning C4715: 'CMenuBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CMonsterInfoBox.cpp(459): warning C4715: 'CMonsterInfoBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\COakLabUI.cpp(502): warning C4715: 'COakLabUI::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPlayerMonsterInfoBox.cpp(548): warning C4715: 'CPlayerMonsterInfoBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(245): warning C4715: 'CPokemon::GetSkill': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemon.cpp(272): warning C4715: 'CPokemon::GetRandSkill': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonBox.cpp(411): warning C4715: 'CPokemonBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CPokemonSelectBox.cpp(638): warning C4715: 'CPokemonSelectBox::LinkText': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CScene.cpp(752): warning C4715: 'CScene::NewObject': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CToolScene.cpp(856): warning C4715: 'CToolScene::NewObject': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Pokemon Fire Red\CItem.h(10): warning C4172: 지역 변수 또는 임시: tem의 주소를 반환하고 있습니다.
+  Pokemon Fire Red.vcxproj -> C:\Users\USER\Desktop\WorkRoom\Pokemon Fire Red\Output\bin_debug\Pokemon Fire Red.exe

@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4c1ac789-5266-44fd-ac9e-fa324dbfb651}</ProjectGuid>
+    <RootNamespace>PokemonFireRed</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\bin_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CAATree.h" />
+    <ClInclude Include="CAnimation.h" />
+    <ClInclude Include="CAnimator.h" />
+    <ClInclude Include="CATree.h" />
+    <ClInclude Include="CBackGround.h" />
+    <ClInclude Include="CBackPackObj.h" />
+    <ClInclude Include="CBackPackRightArrow.h" />
+    <ClInclude Include="CBackpackScene.h" />
+    <ClInclude Include="CBackPackUI.h" />
+    <ClInclude Include="CBackPackLeftArrow.h" />
+    <ClInclude Include="CBattleBox.h" />
+    <ClInclude Include="CBattleMessageBox.h" />
+    <ClInclude Include="CBattleMgr.h" />
+    <ClInclude Include="CBattleScene.h" />
+    <ClInclude Include="CBed.h" />
+    <ClInclude Include="CBoxArrow.h" />
+    <ClInclude Include="CBubble.h" />
+    <ClInclude Include="CBulbasaur.h" />
+    <ClInclude Include="CButtonUI.h" />
+    <ClInclude Include="CCameraMgr.h" />
+    <ClInclude Include="CCancelBox.h" />
+    <ClInclude Include="CCaterpie.h" />
+    <ClInclude Include="CCenter.h" />
+    <ClInclude Include="CCenter1fScene.h" />
+    <ClInclude Include="CCenter2fScene.h" />
+    <ClInclude Include="CCenterIn1f.h" />
+    <ClInclude Include="CCenterIn2f.h" />
+    <ClInclude Include="CCenterSofa.h" />
+    <ClInclude Include="CCenterTable.h" />
+    <ClInclude Include="CCharmander.h" />
+    <ClInclude Include="CCollider.h" />
+    <ClInclude Include="CCollisionMgr.h" />
+    <ClInclude Include="CComponent.h" />
+    <ClInclude Include="CCurPokemonBox.h" />
+    <ClInclude Include="CEmber.h" />
+    <ClInclude Include="CEngine.h" />
+    <ClInclude Include="CEntity.h" />
+    <ClInclude Include="CEnvironment.h" />
+    <ClInclude Include="CEscalator1f.h" />
+    <ClInclude Include="CEscalator2f.h" />
+    <ClInclude Include="CEventMgr.h" />
+    <ClInclude Include="CFlower.h" />
+    <ClInclude Include="CFlowerpot.h" />
+    <ClInclude Include="CGeodude.h" />
+    <ClInclude Include="CGrass.h" />
+    <ClInclude Include="CGrassBattle.h" />
+    <ClInclude Include="CGreenHouse.h" />
+    <ClInclude Include="CGreenHouseScene.h" />
+    <ClInclude Include="CGust.h" />
+    <ClInclude Include="CGym.h" />
+    <ClInclude Include="CGymSign.h" />
+    <ClInclude Include="CHouse1.h" />
+    <ClInclude Include="CHouse1In.h" />
+    <ClInclude Include="CHouse1Scene.h" />
+    <ClInclude Include="CHouse2.h" />
+    <ClInclude Include="CHouse2In.h" />
+    <ClInclude Include="CHouse2Scene.h" />
+    <ClInclude Include="CHouse2Table.h" />
+    <ClInclude Include="CHouseBlackRoof.h" />
+    <ClInclude Include="CHouseBlackRoofIn.h" />
+    <ClInclude Include="CHouseBlackScene1.h" />
+    <ClInclude Include="CHouseRedRoof.h" />
+    <ClInclude Include="CHouseRedRoofGreen.h" />
+    <ClInclude Include="CImage.h" />
+    <ClInclude Include="CItem.h" />
+    <ClInclude Include="CKeyMgr.h" />
+    <ClInclude Include="CLOGO_Scene.h" />
+    <ClInclude Include="CMailBox.h" />
+    <ClInclude Include="CMartIn.h" />
+    <ClInclude Include="CMartScene.h" />
+    <ClInclude Include="CMartStand.h" />
+    <ClInclude Include="CMartStand1.h" />
+    <ClInclude Include="CMartTable.h" />
+    <ClInclude Include="CMenuArrow.h" />
+    <ClInclude Include="CMenuBox.h" />
+    <ClInclude Include="CMenuUI.h" />
+    <ClInclude Include="CMonsterInfoBox.h" />
+    <ClInclude Include="CMuseum.h" />
+    <ClInclude Include="CMuseum1fScene.h" />
+    <ClInclude Include="CMuseum2fScene.h" />
+    <ClInclude Include="CMuseumBox.h" />
+    <ClInclude Include="CMuseumIn1f.h" />
+    <ClInclude Include="CMuseumIn2f.h" />
+    <ClInclude Include="CMuseumStand.h" />
+    <ClInclude Include="CMuseumStand1.h" />
+    <ClInclude Include="CMuseumStand2.h" />
+    <ClInclude Include="COak.h" />
+    <ClInclude Include="COakBook.h" />
+    <ClInclude Include="COakBookShelf.h" />
+    <ClInclude Include="COakBookshelfHalf.h" />
+    <ClInclude Include="COakBookshelfHalf1.h" />
+    <ClInclude Include="COakLabScene.h" />
+    <ClInclude Include="COakLabUI.h" />
+    <ClInclude Include="COakMachine.h" />
+    <ClInclude Include="COakMonsterBall.h" />
+    <ClInclude Include="COaksLabIn.h" />
+    <ClInclude Include="COakTable.h" />
+    <ClInclude Include="COnix.h" />
+    <ClInclude Include="CPallet.h" />
+    <ClInclude Include="CMart.h" />
+    <ClInclude Include="CObject.h" />
+    <ClInclude Include="CPalletWater.h" />
+    <ClInclude Include="CPallet_CITY.h" />
+    <ClInclude Include="CPanelUI.h" />
+    <ClInclude Include="CPathMgr.h" />
+    <ClInclude Include="CPewter.h" />
+    <ClInclude Include="CPewterGym.h" />
+    <ClInclude Include="CPewterGymIn.h" />
+    <ClInclude Include="CPewterGymScene.h" />
+    <ClInclude Include="CPewter_CITY.h" />
+    <ClInclude Include="CPidgey.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CPlayerActionBox.h" />
+    <ClInclude Include="CPlayerMonsterInfoBox.h" />
+    <ClInclude Include="CPokemon.h" />
+    <ClInclude Include="CPokemonBox.h" />
+    <ClInclude Include="CPokemonSelectBox.h" />
+    <ClInclude Include="CPotion.h" />
+    <ClInclude Include="CPPokeInfoScene.h" />
+    <ClInclude Include="CRattata.h" />
+    <ClInclude Include="CRedHouse1f.h" />
+    <ClInclude Include="CRedHouse2f.h" />
+    <ClInclude Include="CRedHouseScene1F.h" />
+    <ClInclude Include="CRedHouseScene2F.h" />
+    <ClInclude Include="CResource.h" />
+    <ClInclude Include="CResourceMgr.h" />
+    <ClInclude Include="CRevive.h" />
+    <ClInclude Include="CRoad01.h" />
+    <ClInclude Include="CORoad1.h" />
+    <ClInclude Include="CRockTile.h" />
+    <ClInclude Include="CRockTileConer.h" />
+    <ClInclude Include="CRockTomb.h" />
+    <ClInclude Include="CScene.h" />
+    <ClInclude Include="CSceneMgr.h" />
+    <ClInclude Include="CScratch.h" />
+    <ClInclude Include="CSkill.h" />
+    <ClInclude Include="CSmallTree.h" />
+    <ClInclude Include="CSound.h" />
+    <ClInclude Include="CSoundMgr.h" />
+    <ClInclude Include="CSquirtle.h" />
+    <ClInclude Include="CTable.h" />
+    <ClInclude Include="CTackle.h" />
+    <ClInclude Include="CTimeMgr.h" />
+    <ClInclude Include="CToolScene.h" />
+    <ClInclude Include="CUI.h" />
+    <ClInclude Include="CUIMgr.h" />
+    <ClInclude Include="CVinewhip.h" />
+    <ClInclude Include="CViridian.h" />
+    <ClInclude Include="CViridian_CITY.h" />
+    <ClInclude Include="CWaterGun.h" />
+    <ClInclude Include="CWave.h" />
+    <ClInclude Include="CWave1.h" />
+    <ClInclude Include="CWave2.h" />
+    <ClInclude Include="CWave3.h" />
+    <ClInclude Include="CWave4.h" />
+    <ClInclude Include="CWave5.h" />
+    <ClInclude Include="CWave6.h" />
+    <ClInclude Include="CWave7.h" />
+    <ClInclude Include="CWeirdCandy.h" />
+    <ClInclude Include="CWhiteFence.h" />
+    <ClInclude Include="CWhiteFence1.h" />
+    <ClInclude Include="CWhiteFenceLeftBot.h" />
+    <ClInclude Include="CWhiteFenceLeftTop.h" />
+    <ClInclude Include="CWhiteFenceRightBot.h" />
+    <ClInclude Include="CWhiteFenceRightTop.h" />
+    <ClInclude Include="CWhiteSign.h" />
+    <ClInclude Include="CWoodFence.h" />
+    <ClInclude Include="CWoodFence1.h" />
+    <ClInclude Include="CWoodFence2.h" />
+    <ClInclude Include="CWoodFenceLeftBot.h" />
+    <ClInclude Include="CWoodFenceLeftTop.h" />
+    <ClInclude Include="CWoodFenceRightBot.h" />
+    <ClInclude Include="CWoodFenceRightTop.h" />
+    <ClInclude Include="CWoodSign.h" />
+    <ClInclude Include="CWoong.h" />
+    <ClInclude Include="def.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="COaksLab.h" />
+    <ClInclude Include="CHouseBlackScene.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Pokemon Fire Red.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAATree.cpp" />
+    <ClCompile Include="CAnimation.cpp" />
+    <ClCompile Include="CAnimator.cpp" />
+    <ClCompile Include="CATree.cpp" />
+    <ClCompile Include="CBackGround.cpp" />
+    <ClCompile Include="CBackPackObj.cpp" />
+    <ClCompile Include="CBackPackRightArrow.cpp" />
+    <ClCompile Include="CBackpackScene.cpp" />
+    <ClCompile Include="CBackPackUI.cpp" />
+    <ClCompile Include="CBackPackLeftArrow.cpp" />
+    <ClCompile Include="CBattleBox.cpp" />
+    <ClCompile Include="CBattleMessageBox.cpp" />
+    <ClCompile Include="CBattleMgr.cpp" />
+    <ClCompile Include="CBattleScene.cpp" />
+    <ClCompile Include="CBed.cpp" />
+    <ClCompile Include="CBoxArrow.cpp" />
+    <ClCompile Include="CBubble.cpp" />
+    <ClCompile Include="CBulbasaur.cpp" />
+    <ClCompile Include="CButtonUI.cpp" />
+    <ClCompile Include="CCameraMgr.cpp" />
+    <ClCompile Include="CCancelBox.cpp" />
+    <ClCompile Include="CCaterpie.cpp" />
+    <ClCompile Include="CCenter.cpp" />
+    <ClCompile Include="CCenter1fScene.cpp" />
+    <ClCompile Include="CCenter2fScene.cpp" />
+    <ClCompile Include="CCenterIn1f.cpp" />
+    <ClCompile Include="CCenterIn2f.cpp" />
+    <ClCompile Include="CCenterSofa.cpp" />
+    <ClCompile Include="CCenterTable.cpp" />
+    <ClCompile Include="CCharmander.cpp" />
+    <ClCompile Include="CCollider.cpp" />
+    <ClCompile Include="CCollisionMgr.cpp" />
+    <ClCompile Include="CComponent.cpp" />
+    <ClCompile Include="CCurPokemonBox.cpp" />
+    <ClCompile Include="CEmber.cpp" />
+    <ClCompile Include="CEngine.cpp" />
+    <ClCompile Include="CEntity.cpp" />
+    <ClCompile Include="CEnvironment.cpp" />
+    <ClCompile Include="CEscalator1f.cpp" />
+    <ClCompile Include="CEscalator2f.cpp" />
+    <ClCompile Include="CEventMgr.cpp" />
+    <ClCompile Include="CFlower.cpp" />
+    <ClCompile Include="CFlowerpot.cpp" />
+    <ClCompile Include="CGeodude.cpp" />
+    <ClCompile Include="CGrass.cpp" />
+    <ClCompile Include="CGrassBattle.cpp" />
+    <ClCompile Include="CGreenHouse.cpp" />
+    <ClCompile Include="CGreenHouseScene.cpp" />
+    <ClCompile Include="CGust.cpp" />
+    <ClCompile Include="CGym.cpp" />
+    <ClCompile Include="CGymSign.cpp" />
+    <ClCompile Include="CHouse1.cpp" />
+    <ClCompile Include="CHouse1In.cpp" />
+    <ClCompile Include="CHouse1Scene.cpp" />
+    <ClCompile Include="CHouse2.cpp" />
+    <ClCompile Include="CHouse2In.cpp" />
+    <ClCompile Include="CHouse2Scene.cpp" />
+    <ClCompile Include="CHouse2Table.cpp" />
+    <ClCompile Include="CHouseBlackRoof.cpp" />
+    <ClCompile Include="CHouseBlackRoofIn.cpp" />
+    <ClCompile Include="CHouseBlackScene1.cpp" />
+    <ClCompile Include="CHouseRedRoof.cpp" />
+    <ClCompile Include="CHouseRedRoofGreen.cpp" />
+    <ClCompile Include="CImage.cpp" />
+    <ClCompile Include="CItem.cpp" />
+    <ClCompile Include="CKeyMgr.cpp" />
+    <ClCompile Include="CLOGO_Scene.cpp" />
+    <ClCompile Include="CMailBox.cpp" />
+    <ClCompile Include="CMartIn.cpp" />
+    <ClCompile Include="CMartScene.cpp" />
+    <ClCompile Include="CMartStand.cpp" />
+    <ClCompile Include="CMartStand1.cpp" />
+    <ClCompile Include="CMartTable.cpp" />
+    <ClCompile Include="CMenuArrow.cpp" />
+    <ClCompile Include="CMenuBox.cpp" />
+    <ClCompile Include="CMenuUI.cpp" />
+    <ClCompile Include="CMonsterInfoBox.cpp" />
+    <ClCompile Include="CMuseum.cpp" />
+    <ClCompile Include="CMuseum1fScene.cpp" />
+    <ClCompile Include="CMuseum2fScene.cpp" />
+    <ClCompile Include="CMuseumBox.cpp" />
+    <ClCompile Include="CMuseumIn1f.cpp" />
+    <ClCompile Include="CMuseumIn2f.cpp" />
+    <ClCompile Include="CMuseumStand.cpp" />
+    <ClCompile Include="CMuseumStand1.cpp" />
+    <ClCompile Include="CMuseumStand2.cpp" />
+    <ClCompile Include="COak.cpp" />
+    <ClCompile Include="COakBook.cpp" />
+    <ClCompile Include="COakBookShelf.cpp" />
+    <ClCompile Include="COakBookshelfHalf.cpp" />
+    <ClCompile Include="COakBookshelfHalf1.cpp" />
+    <ClCompile Include="COakLabScene.cpp" />
+    <ClCompile Include="COakLabUI.cpp" />
+    <ClCompile Include="COakMachine.cpp" />
+    <ClCompile Include="COakMonsterBall.cpp" />
+    <ClCompile Include="COaksLabIn.cpp" />
+    <ClCompile Include="COakTable.cpp" />
+    <ClCompile Include="COnix.cpp" />
+    <ClCompile Include="CPallet.cpp" />
+    <ClCompile Include="CMart.cpp" />
+    <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CPalletWater.cpp" />
+    <ClCompile Include="CPallet_CITY.cpp" />
+    <ClCompile Include="CPanelUI.cpp" />
+    <ClCompile Include="CPathMgr.cpp" />
+    <ClCompile Include="CPewter.cpp" />
+    <ClCompile Include="CPewterGym.cpp" />
+    <ClCompile Include="CPewterGymIn.cpp" />
+    <ClCompile Include="CPewterGymScene.cpp" />
+    <ClCompile Include="CPewter_CITY.cpp" />
+    <ClCompile Include="CPidgey.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CPlayerActionBox.cpp" />
+    <ClCompile Include="CPlayerMonsterInfoBox.cpp" />
+    <ClCompile Include="CPokemon.cpp" />
+    <ClCompile Include="CPokemonBox.cpp" />
+    <ClCompile Include="CPokemonSelectBox.cpp" />
+    <ClCompile Include="CPotion.cpp" />
+    <ClCompile Include="CPPokeInfoScene.cpp" />
+    <ClCompile Include="CRattata.cpp" />
+    <ClCompile Include="CRedHouse1f.cpp" />
+    <ClCompile Include="CRedHouse2f.cpp" />
+    <ClCompile Include="CRedHouseScene1F.cpp" />
+    <ClCompile Include="CRedHouseScene2F.cpp" />
+    <ClCompile Include="CResource.cpp" />
+    <ClCompile Include="CResourceMgr.cpp" />
+    <ClCompile Include="CRevive.cpp" />
+    <ClCompile Include="CRoad01.cpp" />
+    <ClCompile Include="CORoad1.cpp" />
+    <ClCompile Include="CRockTile.cpp" />
+    <ClCompile Include="CRockTileConer.cpp" />
+    <ClCompile Include="CRockTomb.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CSceneMgr.cpp" />
+    <ClCompile Include="CScratch.cpp" />
+    <ClCompile Include="CSkill.cpp" />
+    <ClCompile Include="CSmallTree.cpp" />
+    <ClCompile Include="CSound.cpp" />
+    <ClCompile Include="CSoundMgr.cpp" />
+    <ClCompile Include="CSquirtle.cpp" />
+    <ClCompile Include="CTable.cpp" />
+    <ClCompile Include="CTackle.cpp" />
+    <ClCompile Include="CTimeMgr.cpp" />
+    <ClCompile Include="CToolScene.cpp" />
+    <ClCompile Include="CUI.cpp" />
+    <ClCompile Include="CUIMgr.cpp" />
+    <ClCompile Include="CVinewhip.cpp" />
+    <ClCompile Include="CViridian.cpp" />
+    <ClCompile Include="CViridian_CITY.cpp" />
+    <ClCompile Include="CWaterGun.cpp" />
+    <ClCompile Include="CWave.cpp" />
+    <ClCompile Include="CWave1.cpp" />
+    <ClCompile Include="CWave2.cpp" />
+    <ClCompile Include="CWave3.cpp" />
+    <ClCompile Include="CWave4.cpp" />
+    <ClCompile Include="CWave5.cpp" />
+    <ClCompile Include="CWave6.cpp" />
+    <ClCompile Include="CWave7.cpp" />
+    <ClCompile Include="CWeirdCandy.cpp" />
+    <ClCompile Include="CWhiteFence.cpp" />
+    <ClCompile Include="CWhiteFence1.cpp" />
+    <ClCompile Include="CWhiteFenceLeftBot.cpp" />
+    <ClCompile Include="CWhiteFenceLeftTop.cpp" />
+    <ClCompile Include="CWhiteFenceRightBot.cpp" />
+    <ClCompile Include="CWhiteFenceRightTop.cpp" />
+    <ClCompile Include="CWhiteSign.cpp" />
+    <ClCompile Include="CWoodFence.cpp" />
+    <ClCompile Include="CWoodFence1.cpp" />
+    <ClCompile Include="CWoodFence2.cpp" />
+    <ClCompile Include="CWoodFenceLeftBot.cpp" />
+    <ClCompile Include="CWoodFenceLeftTop.cpp" />
+    <ClCompile Include="CWoodFenceRightBot.cpp" />
+    <ClCompile Include="CWoodFenceRightTop.cpp" />
+    <ClCompile Include="CWoodSign.cpp" />
+    <ClCompile Include="CWoong.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="COaksLab.cpp" />
+    <ClCompile Include="CHouseBlackScene.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Pokemon Fire Red.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pokemon Fire Red.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Pokemon Fire Red.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
